@@ -1,0 +1,48 @@
+.w1{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(128, 0, 0);
+
+
+
+}
+
+.image{
+
+   float: right;
+
+
+
+
+
+}
+
+.formation{
+
+font-weight: bolder;
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+
+
+
+
+
+}
+
+ul{
+
+font-weight: bolder;
+font-size: 20px;
+font-family: 'Times New Roman', Times, serif;
+
+
+
+
+
+}
+
+.menu-table {
+  border: 6px solid black;
+  margin-left: 150px; 
+  
+}
