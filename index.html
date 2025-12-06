@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML Meta Tag Comparison</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: system-ui, Segoe UI, Arial, sans-serif; margin: 0; padding: 2rem; line-height: 1.6; }
+    .container { max-width: 800px; margin: 0 auto; }
+    h1 { margin-bottom: 0.5rem; }
+    p { margin-top: 0; color: #555; }
+    ul { list-style: none; padding: 0; margin-top: 1rem; }
+    li { margin: 0.5rem 0; }
+    a { text-decoration: none; color: #0a66c2; }
+    a:hover { text-decoration: underline; }
+    code { background: rgba(0,0,0,0.06); padding: 0.2rem 0.35rem; border-radius: 4px; }
+    .note { margin-top: 1rem; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>HTML Meta Tag Comparison</h1>
+    <p>This page links to two versions of the same interface: one includes a meta tag, the other does not.</p>
+
+    <ul>
+      <li>
+        <strong>With meta tag:</strong>
+        <a href="index_with_meta.html">index_with_meta.html</a>
+      </li>
+      <li>
+        <strong>Without meta tag:</strong>
+        <a href="index_without_meta.html">index_without_meta.html</a>
+      </li>
+    </ul>
+
+    <div class="note">
+      <p><strong>Note:</strong> The meta tag used is <code>&lt;meta charset="UTF-8"&gt;</code>, which ensures correct character encoding across browsers.</p>
+    </div>
+  </main>
+</body>
+</html>
